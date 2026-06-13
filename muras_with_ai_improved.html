@@ -1187,7 +1187,7 @@
 
     .ai-msg-lbl {
       font-size: .68rem;
-      color: rgba(201, 146, 42, .5);
+      color: rgba(52, 35, 3, 0.5);
       margin-bottom: 3px;
     }
 
@@ -1210,8 +1210,8 @@
 
     .ai-msg.bot .ai-msg-bubble {
       background: rgba(201, 146, 42, .12);
-      color: #3a2010;
-      border: 1px solid rgba(201, 146, 42, .15);
+      color: white;
+      border: 1px solid white;
       border-bottom-left-radius: 4px;
     }
 
@@ -2643,6 +2643,38 @@
       .inp-row {
         grid-template-columns: 1fr;
       }
+    }
+
+    .ai-msg.bot .ai-msg-bubble {
+      background: #fffaf3;
+      color: #3a2010;
+      border: 1px solid rgba(201, 146, 42, .25);
+      border-bottom-left-radius: 4px;
+    }
+    .place-ai-msgs .ai-msg.bot .ai-msg-bubble {
+      background: rgba(255, 255, 255, .07) !important;
+      color: rgba(255, 245, 220, .88) !important;
+      border: 1px solid rgba(201, 146, 42, .15) !important;
+    }
+    .place-ai-msgs .ai-msg.user .ai-msg-bubble {
+      background: linear-gradient(135deg, #d4601a, #b84a0a) !important;
+      color: white !important;
+    }
+
+    .ai-msg.bot .ai-msg-bubble {
+      background: #fffaf3;
+      color: #3a2010;
+      border: 1px solid rgba(201, 146, 42, .25);
+      border-bottom-left-radius: 4px;
+    }
+    .place-ai-msgs .ai-msg.bot .ai-msg-bubble {
+      background: rgba(255, 255, 255, .07) !important;
+      color: rgba(255, 245, 220, .88) !important;
+      border: 1px solid rgba(201, 146, 42, .15) !important;
+    }
+    .place-ai-msgs .ai-msg.user .ai-msg-bubble {
+      background: linear-gradient(135deg, #d4601a, #b84a0a) !important;
+      color: white !important;
     }
   </style>
 
