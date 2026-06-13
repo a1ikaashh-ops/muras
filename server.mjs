@@ -5,7 +5,7 @@ import { networkInterfaces } from 'node:os';
 
 const PORT = Number(process.env.PORT || 3000);
 const HOST = process.env.HOST || '0.0.0.0';
-const GROQ_API_KEY = process.env.GROQ_API_KEY || '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';
+const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
 const GROQ_MODEL = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
 const HTML_FILE = 'muras_with_ai_improved.html';
 
