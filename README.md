@@ -36,3 +36,4 @@ http://127.0.0.1:3000/muras_with_ai_improved.html
 ```bash
 OPENAI_API_KEY=твой_ключ OPENAI_MODEL=gpt-5.4 node server.mjs
 ```
+# muras
